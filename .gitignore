@@ -1,0 +1,16 @@
+# Ignora o executável mas mantém a pasta bin/
+bin/*
+!bin/.gitkeep
+
+*.o
+*.out
+
+# Arquivos de dados
+cidades.txt
+passageiros.txt
+transportes.txt
+trajetos.txt
+
+# Editor
+.vscode/
+.DS_Store
